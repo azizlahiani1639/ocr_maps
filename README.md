@@ -23,12 +23,19 @@ This project uses PaddleOCR to extract text from an image and outputs the result
 
 ## Usage
 
-**Run the OCR script**:
+1. **Place your `Genova.png` image in the project directory**.
+2. **Run the OCR script**:
     ```bash
     python ocr_script.py
     ```
 
 The output will be saved to `ocr_output.json`.
+
+## Results
+
+Here is an example of the OCR output visualization:
+
+![OCR Result](image_output.PNG)
 
 ## Dependencies
 
